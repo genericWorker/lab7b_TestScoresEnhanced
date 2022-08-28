@@ -1,0 +1,62 @@
+<style type="text/css">
+
+    #main {
+    margin-top: 10;
+    margin-left: 100;
+    width: 600px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    justify-content: center;
+    }
+    body {
+        margin:0px 0px; padding:0px;
+        text-align:center;
+    }
+    label,input {
+     display: block;
+     width: 150px;
+     float: left;
+     margin-bottom: 10px;
+    }
+    
+    label {
+     text-align: right;
+     width: 75px;
+     padding-right: 20px;
+    }
+    
+    br {
+     clear: left;
+    }
+    
+    form {
+       display: inline-block;
+       margin-top: 20;
+       justify-content: center; 
+       align-items: center;
+    }
+    #submit {
+        margin-left: 40px;
+    }
+    
+    </style>
+    </head>
+    
+    
+    <body>
+     <div id="main">
+     <form name="Form1"  action="mypage.asp" method="get">
+     <h1>Address Form</h1>    
+     <label for="name">Name</label>
+     <input id="name" name="name"><br>
+    
+     <label for="address">Address</label>
+     <input id="address" name="address"><br>
+    
+     <label for="city">City</label>
+     <input id="city" name="city"><br>
+     <input type="submit" name="submit" id="submit" value="submit" class="button" />
+    
+    </form>
+    </div>
+    </body>
